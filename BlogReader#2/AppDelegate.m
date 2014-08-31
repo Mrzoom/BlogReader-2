@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  BlogReader#2
 //
-//  Created by zoom on 14-4-24.
+//  Created by zoom on 14-3-14.
 //  Copyright (c) 2014年 Jiance Tong. All rights reserved.
 //
 
@@ -12,10 +12,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
     return YES;
 }
 

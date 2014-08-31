@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6C5170E1909CF01005345F1 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5170D1909CF01005345F1 /* BlogPost.m */; };
 		E6C5F81C190975E600284EB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C5F81B190975E600284EB3 /* Foundation.framework */; };
 		E6C5F81E190975E600284EB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C5F81D190975E600284EB3 /* CoreGraphics.framework */; };
 		E6C5F820190975E600284EB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C5F81F190975E600284EB3 /* UIKit.framework */; };
@@ -19,6 +20,9 @@
 		E6C5F837190975E600284EB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6C5F81F190975E600284EB3 /* UIKit.framework */; };
 		E6C5F83F190975E600284EB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6C5F83D190975E600284EB3 /* InfoPlist.strings */; };
 		E6C5F841190975E600284EB3 /* BlogReader_2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5F840190975E600284EB3 /* BlogReader_2Tests.m */; };
+		E6C5F84B190978FD00284EB3 /* mainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6C5F84A190978FD00284EB3 /* mainStoryboard.storyboard */; };
+		E6C5F84E19097D8A00284EB3 /* tableViewControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C5F84D19097D8A00284EB3 /* tableViewControllerTableViewController.m */; };
+		E6C7266F190A21F4004BB090 /* webViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C7266E190A21F4004BB090 /* webViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E6C5170C1909CF01005345F1 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		E6C5170D1909CF01005345F1 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
 		E6C5F818190975E500284EB3 /* BlogReader#2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlogReader#2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6C5F81B190975E600284EB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6C5F81D190975E600284EB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +54,11 @@
 		E6C5F83C190975E600284EB3 /* BlogReader#2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReader#2Tests-Info.plist"; sourceTree = "<group>"; };
 		E6C5F83E190975E600284EB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E6C5F840190975E600284EB3 /* BlogReader_2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReader_2Tests.m; sourceTree = "<group>"; };
+		E6C5F84A190978FD00284EB3 /* mainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = mainStoryboard.storyboard; path = ../mainStoryboard.storyboard; sourceTree = "<group>"; };
+		E6C5F84C19097D8A00284EB3 /* tableViewControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tableViewControllerTableViewController.h; path = ../tableViewControllerTableViewController.h; sourceTree = "<group>"; };
+		E6C5F84D19097D8A00284EB3 /* tableViewControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tableViewControllerTableViewController.m; path = ../tableViewControllerTableViewController.m; sourceTree = "<group>"; };
+		E6C7266D190A21F4004BB090 /* webViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webViewController.h; sourceTree = "<group>"; };
+		E6C7266E190A21F4004BB090 /* webViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +118,17 @@
 		E6C5F821190975E600284EB3 /* BlogReader#2 */ = {
 			isa = PBXGroup;
 			children = (
+				E6C5F84C19097D8A00284EB3 /* tableViewControllerTableViewController.h */,
+				E6C5F84D19097D8A00284EB3 /* tableViewControllerTableViewController.m */,
 				E6C5F82A190975E600284EB3 /* AppDelegate.h */,
 				E6C5F82B190975E600284EB3 /* AppDelegate.m */,
+				E6C5F84A190978FD00284EB3 /* mainStoryboard.storyboard */,
+				E6C5170C1909CF01005345F1 /* BlogPost.h */,
+				E6C5170D1909CF01005345F1 /* BlogPost.m */,
 				E6C5F82D190975E600284EB3 /* Images.xcassets */,
 				E6C5F822190975E600284EB3 /* Supporting Files */,
+				E6C7266D190A21F4004BB090 /* webViewController.h */,
+				E6C7266E190A21F4004BB090 /* webViewController.m */,
 			);
 			path = "BlogReader#2";
 			sourceTree = "<group>";
@@ -221,6 +239,7 @@
 			files = (
 				E6C5F826190975E600284EB3 /* InfoPlist.strings in Resources */,
 				E6C5F82E190975E600284EB3 /* Images.xcassets in Resources */,
+				E6C5F84B190978FD00284EB3 /* mainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,7 +259,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6C5F82C190975E600284EB3 /* AppDelegate.m in Sources */,
+				E6C5F84E19097D8A00284EB3 /* tableViewControllerTableViewController.m in Sources */,
+				E6C7266F190A21F4004BB090 /* webViewController.m in Sources */,
 				E6C5F828190975E600284EB3 /* main.m in Sources */,
+				E6C5170E1909CF01005345F1 /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +459,7 @@
 				E6C5F846190975E600284EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6C5F847190975E600284EB3 /* Build configuration list for PBXNativeTarget "BlogReader#2Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +468,7 @@
 				E6C5F849190975E600284EB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
